@@ -15,9 +15,16 @@ main {
     /* background-color: #ccc; */
     display: flex;
     flex-direction: column;
-    margin: 4rem auto;
-    max-width: 70%;
+    margin: 3rem auto;
+    max-width: 75%;
     gap: 1rem;
+}
+
+ul {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
 }
 
 li {
@@ -31,5 +38,5 @@ ul li {
 .work {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 }
