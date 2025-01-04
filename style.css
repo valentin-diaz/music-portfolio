@@ -16,7 +16,7 @@ main {
     display: flex;
     flex-direction: column;
     margin: 3rem auto;
-    max-width: 75%;
+    width: min(75%, 900px);
     gap: 1rem;
 }
 
@@ -52,4 +52,13 @@ h2 {
 h3 {
     font-size: 1rem;
     /* text-decoration: underline; */
+}
+
+#yt_player {
+    width: min(550px, 100%);
+}
+
+p {
+    /* line-height: 1.5; */
+    font-size: 1rem;
 }
