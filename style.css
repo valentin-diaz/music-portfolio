@@ -15,8 +15,9 @@ main {
     /* background-color: #ccc; */
     display: flex;
     flex-direction: column;
-    margin: 3rem auto;
-    width: min(75%, 900px);
+    margin-block: 3rem;
+    margin-inline: auto;
+    width: min(90%, 900px);
     gap: 1rem;
 }
 
@@ -69,3 +70,4 @@ p {
 /* iframe {
     margin-top: 0.5rem;
 } */
+
