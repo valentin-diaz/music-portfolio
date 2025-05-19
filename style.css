@@ -57,7 +57,7 @@ h3 {
     /* text-decoration: underline; */
 }
 
-#yt_player {
+.yt_player {
     width: min(550px, 100%);
 }
 
